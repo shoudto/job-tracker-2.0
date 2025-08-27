@@ -2,7 +2,6 @@ import express from "express"; // importing express
 import cors from "cors"; // import middleware library
 
 const app = express(); // creating express application instance
-const PORT = 8080; // defining a port
 
 app.use(cors()); // <-- adds the CORS middleware globally
 
