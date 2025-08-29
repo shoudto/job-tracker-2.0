@@ -1,7 +1,10 @@
 import express from "express"; // importing express
 import cors from "cors"; // import middleware library
+import dotenv from "dotenv";
 
 const app = express(); // creating express application instance
+
+dotenv.config();
 
 app.use(cors()); // <-- adds the CORS middleware globally
 
